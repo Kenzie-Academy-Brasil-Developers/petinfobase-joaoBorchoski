@@ -21,6 +21,20 @@
   --sucess100: "hsl(162, 88%, 26%)";
 }
 
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@600&display=swap');
+
 body {
-  font-family: "Inter, sans-serif";
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+body button{
+  cursor: pointer;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+textarea:focus, input:focus{
+  box-shadow: 0 0 0 0;
+  border: 1px solid #E9ECEF;
+  outline: 0;
+} 
+body li{
+  list-style: none;
 }

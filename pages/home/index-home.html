@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index-home.css">
+    <link rel="stylesheet" href="../../styles/coisasUsuais.css">
+    <link rel="stylesheet" href="../../styles/globalStyles.css">
+    <title>Petinfo - Home</title>
+</head>
+<body class="relative">
+    <header class="headerContainer flex justifyBet align">
+        <h2>Petinfo</h2>
+        <section class="relative">
+            <div class="profile flex justifyBet align gap16">
+                <button id="createPubli" class="butCreatePubli">Criar publicação</button>
+                <img id="imgProfile" src="../../src/img9.svg" alt="">
+            </div>
+            <div class="logOut  column gap12 align widthFull ">
+                <p class="heigthHalf flex align">@<spam id="spamUser">samuelleaoui</spam></p>
+                <button id="butLogOut" class="butLogOut widthFull heigthHalf">
+                    <img src="../../src/imgOut.svg" alt="">
+                    Sair da conta
+                </button>
+            </div>
+        </section>
+    </header>
+    <div class="feed"><h3 class="flex align">Feed</h1></div>
+    <main class="mainContainer">
+        <ul id="ulCards" class="ulCards flex column gap32"> 
+        </ul>
+    </main>
+    <div id="divModais">
+        
+    </div>
+    
+    <script type="module" src="./script-home.js"></script>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <link rel="stylesheet" href="./styles/coisasUsuais.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <link rel="stylesheet" href="./pages/login/index-login.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <link rel="stylesheet" href="./styles/globalStyles.css">
+    <title>Petinfo - Login</title>
+</head>
+<body>
+    <main class="mainLogin flex align justifyCenter gap32 margin0Auto heigthFull">
+        <div class="div1 flex column gap48">
+            <h1>Petinfo</h1>
+            <h1><span>Amor</span> e <span>carinho</span> por meio do conhecimento</h1>
+            <p>Todas as informações para melhorar a vida do seu pet em um só lugar</p>
+            <section class="relative">
+                <span class="absolute">
+                    <img src="./src/img1.svg" alt="">
+                    <img src="./src/img2.svg" alt="">
+                </span>
+                <img src="./src/img3.svg" alt="">
+                <img src="./src/img4.svg" alt="">
+            </section>
+        </div>
+        <div class="div2 flex column gap48">
+            <h3>Login</h3>
+            <form id="form" class="flex column gap32 widthFull">
+                <section class="flex column gap12">
+                    <label for="email">Email</label>
+                    <input type="email" name="emailLogin" id="email" placeholder="Digite aqui seu email..." required>
+                </section>
+                <section class="flex column gap12">
+                    <label for="password">Senha</label>
+                    <input type="password" name="password" id="password" placeholder="Digite aqui sua senha..." required>
+                    <p id="incorrectPassword" class="hide">Email ou senha incorreto.</p>
+                </section>
+                <button id="butLogin" type="submit">Acessar</button>
+            </form>
+            <div class="divReg flex column gap24 ">
+                <h4>Ainda não possui conta?</h4>
+                <p>Clicando no botão abaixo, você pode se cadastrar rapidamente</p>
+                <a href="pages\register\index-register.html" target="_blank">
+                    <button class="butCadLogin widthFull">Cadastrar</button>
+                </a>
+            </div>
+
+        </div>
+        <!-- <aside id="aside" class="toast fixed">
+            <div class="flex column gap16">
+                <section class="flex align gap12">
+                    <img src="../../src/imgCheck.svg" alt="">
+                    <h3>Seu login foi feito com sucesso!</h3>
+                </section>
+                <span>você será redirecionado para a HomePage em instantes...</span>
+            </div>
+        </aside> -->
+    </main>
+    <script type="module" src="./pages/login/index-login.js"></script>
+</body>
+</html>
