@@ -27,7 +27,7 @@ body {
   font-family: 'IBM Plex Sans', sans-serif;
 }
 body button{
-  cursor: pointer;
+  cursor:pointer;
   font-family: 'IBM Plex Sans', sans-serif;
 }
 textarea:focus, input:focus{

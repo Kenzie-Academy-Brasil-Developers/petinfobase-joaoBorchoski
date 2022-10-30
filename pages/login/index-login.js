@@ -50,6 +50,7 @@ function userLogin2(){
     const form = document.getElementById("form")
     const elements = [...form.elements]
     const body = document.querySelector("body")
+    const butLogin = document.getElementById("butLogin")
 
     form.addEventListener("submit", async (e) => {
         e.preventDefault()
@@ -60,6 +61,8 @@ function userLogin2(){
             elements.forEach((element) => {
                 if(element.tagName == "INPUT" && element.value !== ""){
                     data[element.id] = element.value
+                }else if(element.value === ""){
+                    butLogin.disabled = true;
                 }
             })
             //console.log(data)
